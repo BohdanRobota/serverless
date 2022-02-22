@@ -1,0 +1,19 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "https://j7iqo8vrrg.execute-api.us-east-1.amazonaws.com/first-api?displaymessage=FirstName%20LastName",
+  "main": "handler.js",
+  "scripts": {
+    "invoke": "serverless invoke --function helloFromLambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanRobota/serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BohdanRobota/serverless/issues"
+  },
+  "homepage": "https://github.com/BohdanRobota/serverless#readme"
+}

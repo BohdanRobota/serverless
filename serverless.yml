@@ -1,0 +1,15 @@
+
+service: serverless-homework
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  helloFromLambda:
+    handler: handler.helloFromLambda
+    events:
+      - httpApi:
+          path: /first-api
+          method: get
